@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+/* left menu*/
+.sidebar {
+    width: 210px;
+    height: 100vh;
+    background: linear-gradient(180deg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+.sidebar h2 {
+    color: red;
+    margin-bottom: 30px;
+}
+.sidebar a {
+    display: black;
+    color: rgb(226, 7, 7);
+    text-decoration: none;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background: rgba(red, green, blue, alpha);
+}
+
+/* main area*/
+.main-content{
+    margin-left: 210px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* top*/
+.main-profile {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+/* card*/
+.card {
+    background:white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px black;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    color: red;
+}
+
+.card h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* link*/
+.card a,
+.maker-contact a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* form*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
